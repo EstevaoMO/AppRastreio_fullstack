@@ -8,4 +8,4 @@ class UsuarioModel(Base):
     idusuario = Column(Integer, primary_key=True, autoincrement=True)
     nomeusuario = Column(String(100), nullable=False)
 
-    pedidos = relationship("possui", back_populates="usuario", cascade="all, delete") 
+    possuis = relationship("PossuiModel", back_populates="usuario", cascade="all, delete")

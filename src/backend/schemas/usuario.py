@@ -1,10 +1,10 @@
 from pydantic import BaseModel
 
 class UsuarioCriarSchema(BaseModel):
-    nome : str
+    nomeusuario : str
 
 class UsuarioConsultarSchema(BaseModel):
-    id : int
+    idusuario : int
 
     class Config:
         orm_mode = True

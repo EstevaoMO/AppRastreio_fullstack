@@ -8,5 +8,5 @@ class PossuiModel(Base):
     idusuario = Column(Integer, ForeignKey("usuario.idusuario", ondelete="CASCADE"), primary_key=True)
     codrastreio = Column(String(200), ForeignKey("pedido.codrastreio", ondelete="CASCADE"), primary_key=True)
 
-    usuario = relationship("usuario", back_populates="pedido")
-    pedido = relationship("pedido", back_populates="usuario")
+    usuario = relationship("UsuarioModel", back_populates="possuis")
+    pedido = relationship("PedidoModel", back_populates="possuis")
