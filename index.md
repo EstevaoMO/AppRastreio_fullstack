@@ -29,15 +29,11 @@
 
 ### Síntese
 
-#### Linguagens de Programação
-
 | Linguagens de Programação  |
 | -------------------------- |
 | Python (FastAPI)           |
 | JavaScript (React Native)  |
 | SQL (MySQL)                |
-
-#### Extras
 
 | Extras             |
 | ------------------ |
