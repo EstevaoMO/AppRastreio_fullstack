@@ -31,6 +31,7 @@
 
 #### Linguagens de Programação
 
+| Linguagens de Programação  |
 | -------------------------- |
 | Python (FastAPI)           |
 | JavaScript (React Native)  |
@@ -38,6 +39,7 @@
 
 #### Extras
 
+| Extras             |
 | ------------------ |
 | Visual Studio Code |
 | MySQL Workbench    |
